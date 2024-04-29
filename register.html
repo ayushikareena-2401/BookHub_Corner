@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>New User Registration</title>
+        <style>
+             body {
+              background-image: url("bgImg.webp");
+              background-repeat: no-repeat;
+              background-size: 100%;
+              padding: 0;
+              margin: 0;
+             }
+            .form_box{
+                background-color:rgba(252, 231, 205, 0.688);
+                height: 72%;
+                width:26%;
+                margin-left: 36%;  
+                margin-top: 8%;
+                border-radius:1 cap;
+            }
+            #bt{
+                margin-left: 12%;
+                background-color: rgb(236, 185, 153);
+                font-weight: bold;
+                font-size: 24px;
+                margin: 2 ,17px;
+                cursor: pointer;
+                width: 70%;
+                margin-top: 24px;
+                padding: 10px 14px;
+                border-radius: 22px;
+                border: none;
+            }
+            .f{
+                margin-top: 5vh;
+                margin-left: 8vh;
+                font-size: 22px;
+            }
+        </style>
+        <body>
+            <div class="form_box">
+                    <br>
+                <center><img class ="icon" src="icon.png" height="75vh" width="75vh"></img></center>
+                <form class="f" action="register.php" method="post">
+                <label for="Name"><b><i>Name:</i></b></label> &nbsp &nbsp &nbsp &nbsp &nbsp 
+                <input type="text" id="Name" name="Name"><br><br>
+                <label for="email"><b><i>Email Id:</i></b></label> &nbsp &nbsp&nbsp 
+                <input type="email" id="email" name="email"><br><br>
+                <label for="Password"><b><i>Password:</i></b></label>&nbsp&nbsp &nbsp
+                <input type="password" id="Password" name="Password"><br><br>
+                <label for="Country"><b><i>Country:</i></b></label> &nbsp &nbsp &nbsp 
+                <input type="text" id="Country" name="Country"><br><br>
+                <label for="Pincode"><b><i>Pincode:</i></b></label> &nbsp &nbsp &nbsp 
+                <input type="text" id="Pincode" name="Pincode" ><br><br>
+                <label for="State"><b><i>State:</i></b></label> &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp
+                <input type="text" id="State" name="State"><br>
+                   <input type="submit" value="SUBMIT" id="bt">
+            </form>
+            </div>
+        </body>
+    </head>
+</html>
